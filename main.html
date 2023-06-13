@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css" /> 
+</head>
+<body>
+<main>
+
+<div class="wrap">
+   <section class="heading">
+    <p class="title">Task Manager</p>
+    <p class="subtitle">manage and search your pendig task in clicks</p>
+   </section>
+
+   <section class="task-manager">
+    <div class="search-box">
+      <form class="search" >
+        <input type="text" name="task" placeholder="seacrh task" autocomplete="off">
+        <i class="bi bi-x-circle reset"></i>
+      </form>
+    </div>
+    <div class="task-box">
+      <ul class="tasks">
+        <li>
+          <span>task 1</span>
+          <i class="bi bi-trash-fill delete"></i>
+        </li>
+        <li>
+          <span>task 2</span>
+          <i class="bi bi-trash-fill delete"></i>
+        </li>
+        <li>
+          <span>task 3</span>
+          <i class="bi bi-trash-fill delete"></i>
+        </li>
+      </ul>
+      <form  class="add">
+        <input type="text" name="task" placeholder="add task" autocomplete="off">
+        <input type="submit" value="add">
+      </form>
+    </div>
+    <div class="message">
+      <span>you have 3 pending task</span>
+      <button class="clear">clear all</button>
+    </div>
+   </section>
+</div>
+
+
+</main>
+   
+ 
+  <script src="new.js"></script>
+</body>
+</html>
